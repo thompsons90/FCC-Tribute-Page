@@ -1,0 +1,48 @@
+body {
+  background-color: yellow;
+}
+#img-div {
+  border: 3px solid black;
+  border-radius: 20px;
+}
+#image {
+  border-radius: 20px 120px 20px 120px;
+  
+}
+
+
+h1 {
+  font-family: 'Bellota', cursive;
+  text-align: center;
+}
+h2 {
+  font-family: 'Bellota', cursive;
+  text-align: center;
+}
+p {
+  font-family: 'Bellota', cursive;
+    text-align: center;
+}
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+#image:hover {
+  height: 400px;
+  width: auto;
+  box-shadow: 5px 5px 5px 5px #000;
+}
+
+figcaption {
+  font-size: 10px;
+}
+
+#centered {
+  display: flex;
+  justify-content: center;
+}
